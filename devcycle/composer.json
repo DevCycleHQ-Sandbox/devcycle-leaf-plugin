@@ -2,6 +2,12 @@
   "name": "devcycle/devcycle",
   "type": "library",
   "require": {
-    "OneSignal/onesignal-php-api": "*@dev"
+    "devcycle/php-server-sdk": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DevCycle\\": "src"
+    }
   }
 }
+
