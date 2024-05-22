@@ -1,0 +1,7 @@
+{
+  "name": "devcycle/devcycle",
+  "type": "library",
+  "require": {
+    "OneSignal/onesignal-php-api": "*@dev"
+  }
+}
