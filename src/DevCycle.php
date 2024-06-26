@@ -7,19 +7,20 @@ use DevCycle\Model\DevCycleOptions;
 
 class DevCycle
 {
-  public $devcycleClient;
+    public $devcycleClient;
 
-  function __construct($server_sdk_key)
-  {
-    $devcycleOptions = new DevCycleOptions();
-    $this->devcycleClient = new DevCycleClient(
-      sdkKey: $server_sdk_key,
-      dvcOptions: $devcycleOptions
-    );
-  }
+    function __construct($server_sdk_key)
+    {
+        $devcycleOptions = new DevCycleOptions();
+        $this->devcycleClient = new DevCycleClient(
+            sdkKey: $server_sdk_key,
+            dvcOptions: $devcycleOptions
+        );
+    }
 
-  public static function ping()
-  {
-    return "Pong!";
-  }
+
+    public function getDevCycleClient()
+    {
+        return $this->devcycleClient;
+    }
 }
