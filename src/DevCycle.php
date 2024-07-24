@@ -18,7 +18,6 @@ class DevCycle
         );
     }
 
-
     public function getDevCycleClient()
     {
         return $this->devcycleClient;
