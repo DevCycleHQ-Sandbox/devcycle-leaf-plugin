@@ -16,7 +16,7 @@ This repository provides an extension for the Leaf PHP framework that integrates
 To install this extension, you can use Composer. Run the following command in your project directory:
 
 ```bash
-composer require your-namespace/devcycle-leaf-extension
+composer require devcycle/devcycle-leaf-plugin
 ```
 
 ## Usage
