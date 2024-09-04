@@ -1,5 +1,20 @@
 {
   "name": "devcycle/devcycle-leaf-plugin",
+  "description": "DevCycle SDK Wrapper for the LeafPHP Framework",
+  "keywords": [
+    "php",
+    "devcycle",
+    "sdk",
+    "leafphp"
+  ],
+  "homepage": "https://devcycle.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "DevCycle",
+      "homepage": "https://devcycle.com"
+    }
+  ],
   "type": "library",
   "require": {
     "devcycle/php-server-sdk": "*"
@@ -10,4 +25,3 @@
     }
   }
 }
-
