@@ -1,5 +1,5 @@
 {
-  "name": "devcycle/devcycle",
+  "name": "devcycle/devcycle-leaf-plugin",
   "type": "library",
   "require": {
     "devcycle/php-server-sdk": "*"
